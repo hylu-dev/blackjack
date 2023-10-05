@@ -17,7 +17,6 @@ class Rank {
         this.name = name;
         this.value = value;
     }
-    static ONE = new Rank("one", 1);
     static TWO = new Rank("two", 2);
     static THREE = new Rank("three", 3);
     static FOUR = new Rank("four", 4);
@@ -26,6 +25,7 @@ class Rank {
     static SEVEN = new Rank("seven", 7);
     static EIGHT = new Rank("eight", 8);
     static NINE = new Rank("nine", 9);
+    static TEN = new Rank("ten", 10);
     static JACK = new Rank("jack", 10);
     static QUEEN = new Rank("queen", 10);
     static KING = new Rank("king", 10);
